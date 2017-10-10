@@ -1,0 +1,99 @@
+
+body {
+  background: url("./cartoon-back.jpg"), fixed;
+  background-position: center;
+  
+
+ }
+
+.header {
+ display: flex;
+ justify-content: center;
+ margin-bottom: 200px;
+}
+
+
+
+
+ .App {
+
+ }
+
+
+/* 
+@media(min-width: 750px) {
+  .main_header {
+     
+  }
+} */
+
+
+/* ------------- weatherdisplay ---------*/
+
+.weatherD {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.weatherButton {
+  
+    border-top: 1px solid #1c4863;
+    background: #65a9d7;
+    background: -webkit-linear-gradient(top, #237eba, #65a9d7);
+    padding: 15.5px 31px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 12px;
+    font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+    }
+
+    
+    .colorMyWeather {
+      color: rgb(255, 251, 8);
+      font-size: 50px;
+      font-family: 'Righteous';
+      flex-direction: column;
+      
+    
+    }
+    
+
+
+
+
+/*----------List--------------*/
+.todoList {
+  display: flex;
+  justify-content: center;
+}
+
+.todoButton {
+  margin-right: 10px;
+    width: 100px;
+    height: 25px;
+    border: 1px solid rgb(57, 191, 231);
+    box-sizing: border-box;
+   background: rgb(35, 180, 224);
+
+}
+
+.todoInput {
+  width: 50%;
+  padding: 3px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+
+}
+
+
+
+
